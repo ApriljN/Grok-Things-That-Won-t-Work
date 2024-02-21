@@ -1,0 +1,7 @@
+students = input('Students: ')
+s = students.split()
+s.sort()
+print("Class Roll")
+for kid in s:  
+  print(kid)
+#Sorts the list in alphabetical order
