@@ -1,0 +1,6 @@
+num = int(input('Number: '))
+n = num/2
+if n >= 4:
+  print('Half is larger then 4')
+else:
+  print('Half is smaller then 4' )
