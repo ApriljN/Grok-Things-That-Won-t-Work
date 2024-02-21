@@ -1,0 +1,12 @@
+# Grok-Things-That-Won-t-Work
+
+num = input("Enter the expenses: ")
+f = num.split(" ")
+total = 0
+for s in f:
+  x = int(s)
+  total += x
+print("Total: $" + str(total))
+
+#Testing no expenses. Your submission raised an exception of type ValueError. This occurred on line 5 of your submission.
+#Idk how is wrong the output is correct.
