@@ -1,0 +1,5 @@
+data = input("Which days had rain? ")
+weather = data.split()
+days = (len(weather))
+norain = str(7-days)
+print('Number of days without rain: ' + norain)
