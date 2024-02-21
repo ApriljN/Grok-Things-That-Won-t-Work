@@ -1,4 +1,4 @@
-# Grok-Things-That-Won-t-Work
+# Grok-Things
 
 num = input("Enter the expenses: ")
 f = num.split(" ")
